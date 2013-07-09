@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="StoreInSqlDatabaseForTesting.cs" />
     <Compile Include="StoreInDatabase.cs" />
     <Compile Include="Database.cs" />
     <Compile Include="IDatabase.cs" />

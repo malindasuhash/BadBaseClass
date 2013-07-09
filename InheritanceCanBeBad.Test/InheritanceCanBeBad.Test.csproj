@@ -46,7 +46,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="StoreInSqlDatabaseForTestingTest.cs" />
+    <Compile Include="Stubs\DatabaseStub.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\InheritanceCanBeBad\InheritanceCanBeBad.csproj">
+      <Project>{643FA0AE-A8A2-48F4-9789-B3E0F9DD8E6E}</Project>
+      <Name>InheritanceCanBeBad</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
